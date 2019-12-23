@@ -4,7 +4,7 @@
 void setup() {
 strokeWeight(0);
 
-size( 400, 400, P2D);
+size( 380, 130, P2D);
 
 
 rect( 40, 1, 300, 130); 

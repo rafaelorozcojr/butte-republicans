@@ -1,8 +1,5 @@
-
-
-
 void setup() {
-strokeWeight(0);
+noStroke();
 
 size( 380, 130, P2D);
 
@@ -98,26 +95,7 @@ star( 80, 58);
 star( 95, 58);
 star( 110, 58);
 star( 125, 58);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
-
 
 void star(float x, float y) {
     translate(x, y);

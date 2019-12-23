@@ -1,101 +1,120 @@
 void setup() {
 noStroke();
 
-size( 380, 130, P2D);
+size( 300, 130, P2D);
 
-
-rect( 40, 1, 300, 130); 
+// big white box
+rect( 0, 0, 300, 130); 
 
 //star box 
 fill(0, 0, 255);
-rect( 40, 1, 100, 70);
+rect( 0, 0, 100, 70);
 
 
 // stripes
 fill(255, 0, 0);
-rect( 140, 1, 200, 10);
-rect( 140, 21, 200, 10);
-rect( 140, 41, 200, 10);
-rect( 140, 61, 200, 10);
-rect( 40, 81, 300, 10);
-rect( 40, 101, 300, 10);
-rect( 40, 121, 300, 10);
+rect( 100, 0, 200, 10);
+rect( 100, 20, 200, 10);
+rect( 100, 40, 200, 10);
+rect( 100, 60, 200, 10);
+rect( 0, 80, 300, 10);
+rect( 0, 100, 300, 10);
+rect( 0, 120, 300, 10);
 
 
 
 // stars
 fill( 255, 255, 255);
 // first row
-star( 50, 10);
-star( 65, 10);
-star( 80, 10);
-star( 95, 10);
-star( 110, 10);
-star( 125, 10);
+star( 10, 10);
+star( 25, 10);
+star( 40, 10);
+star( 55, 10);
+star( 70, 10);
+star( 85, 10);
 
 // second row
-star( 57, 16);
-star( 72, 16);
-star( 87, 16);
-star( 102, 16);
-star( 117, 16);
+star( 17, 16);
+star( 32, 16);
+star( 47, 16);
+star( 62, 16);
+star( 77, 16);
 
 // 3rd row
-star( 50, 22);
-star( 65, 22);
-star( 80, 22);
-star( 95, 22);
-star( 110, 22);
-star( 125, 22);
+star( 10, 22);
+star( 25, 22);
+star( 40, 22);
+star( 55, 22);
+star( 70, 22);
+star( 85, 22);
 
 // 4th row
-star( 57, 28);
-star( 72, 28);
-star( 87, 28);
-star( 102, 28);
-star( 117, 28);
+star( 17, 28);
+star( 32, 28);
+star( 47, 28);
+star( 62, 28);
+star( 77, 28);
 
 
 
 // 5th row
-star( 50, 34);
-star( 65, 34);
-star( 80, 34);
-star( 95, 34);
-star( 110, 34);
-star( 125, 34);
+star( 10, 34);
+star( 25, 34);
+star( 40, 34);
+star( 55, 34);
+star( 70, 34);
+star( 85, 34);
 
 // 6th row
-star( 57, 40);
-star( 72, 40);
-star( 87, 40);
-star( 102, 40);
-star( 117, 40);
+star( 17, 40);
+star( 32, 40);
+star( 47, 40);
+star( 62, 40);
+star( 77, 40);
 
 
 // 7th row
-star( 50, 46);
-star( 65, 46);
-star( 80, 46);
-star( 95, 46);
-star( 110, 46);
-star( 125, 46);
+star( 10, 46);
+star( 25, 46);
+star( 40, 46);
+star( 55, 46);
+star( 70, 46);
+star( 85, 46);
 
 // 8th row
-star( 57, 52);
-star( 72, 52);
-star( 87, 52);
-star( 102, 52);
-star( 117, 52);
+star( 17, 52);
+star( 32, 52);
+star( 47, 52);
+star( 62, 52);
+star( 77, 52);
 
 // 9th row
-star( 50, 58);
-star( 65, 58);
-star( 80, 58);
-star( 95, 58);
-star( 110, 58);
-star( 125, 58);
+star( 10, 58);
+star( 25, 58);
+star( 40, 58);
+star( 55, 58);
+star( 70, 58);
+star( 85, 58);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+
+
 
 void star(float x, float y) {
     translate(x, y);
